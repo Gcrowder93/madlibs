@@ -1,37 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Almendra:ital@1&display=swap");
 
-body {        
-    font-family: 'Titillium Web', sans-serif;
-    background-color: #FFFCFA;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-}
-
-main {
-    padding: 30px;
-    display: grid;
-
-}
-
-header {
-    background-color: #A2D7D2;
-    height: 110px;
-    padding: 0 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header img {
-    height: 100%;
-    object-fit: contain;
+body {
+  font-family: "Almendra", serif;
+  background-color: #fffcfa;
+  display: grid;
 }
 
 h1 {
-    font-size: 1.5rem;
-    font-weight: bold;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
 }
 
-footer {
-    background-color: #FAF0EA;
-    padding: 10px;
+main {
+  display: grid;
+}
+
+p {
+  width: 40%;
+  justify-self: center;
+  padding: 20px 0 40px 0;
+}
+
+.words {
+  display: grid;
+  justify-self: center;
+  align-self: center;
+  grid-gap: 20px;
+  width: 20%;
+}
+
+.inputs {
+  /* justify-self: center;
+  align-self: center; */
+}
+
+#inputSubmit {
+  width: 75px;
+  justify-self: center;
+  margin: 20px 0 40px 0;
 }
