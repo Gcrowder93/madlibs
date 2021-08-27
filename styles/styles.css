@@ -8,6 +8,8 @@ body {
 
 main {
     padding: 30px;
+    display: grid;
+
 }
 
 header {
