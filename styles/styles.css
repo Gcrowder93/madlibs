@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Almendra:ital@1&display=swap");
 
-
-
 body {
   font-family: "Almendra", serif;
   background-image: url(/assets/madmax.jpeg);
@@ -26,7 +24,7 @@ p {
 }
 
 .hidden {
-    display: none;
+  display: none;
 }
 
 .words {
@@ -44,7 +42,7 @@ p {
   align-self: center; */
 }
 
-#inputSubmit {
+#button {
   width: 75px;
   justify-self: center;
   margin: 20px 0 40px 0;
