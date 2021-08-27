@@ -7,6 +7,7 @@ const verb1text = document.getElementById('verb-1');
 const noun1text = document.getElementById('noun-1');
 const verb2text = document.getElementById('verb-2');
 const adjective1text = document.getElementById('adjective-1');
+console.log(adjective1text);
 const bodypart1text = document.getElementById('bodypart-1');
 const name1text = document.getElementById('name-1');
 const verb3text = document.getElementById('verb-3');
