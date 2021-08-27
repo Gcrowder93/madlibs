@@ -1,6 +1,10 @@
 // import functions
 
+
+
 // reference needed DOM elements
+
+
 
 
 // set event listeners 

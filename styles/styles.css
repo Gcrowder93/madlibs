@@ -1,9 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Almendra:ital@1&display=swap");
 
+
+
 body {
   font-family: "Almendra", serif;
-  background-color: #fffcfa;
+  background-image: url(/assets/madmax.jpeg);
   display: grid;
+  background-size: cover;
 }
 
 h1 {
@@ -22,12 +25,18 @@ p {
   padding: 20px 0 40px 0;
 }
 
+.hidden {
+    display: none;
+}
+
 .words {
   display: grid;
   justify-self: center;
   align-self: center;
   grid-gap: 20px;
   width: 20%;
+  color: white;
+  text-align: center;
 }
 
 .inputs {

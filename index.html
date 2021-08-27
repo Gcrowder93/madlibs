@@ -14,10 +14,13 @@
   </head>
 
   <body>
+
+
     <h1>The Mad Max Lib</h1>
 
     <main>
-      <p>
+      <p class="hidden">
+
         My life <span id="verb-1">"verb-1"</span>. The
         <span id="noun-1">"noun-1"</span> dims. All that remains are memories. I
         remember a time of <span id="verb-2">"verb-2"</span>, ruined dreams,
@@ -35,16 +38,19 @@
       </p>
 
       <section class="words">
-        <input type="text" class="inputs' id="verb-1-input" /> <input
-        type="text" class="inputs' id="noun-1-input" /> <input type="text"
-        class="inputs' id="verb-2-input" /> <input type="text" class="inputs'
-        id="adjective-1" /> <input type="text" class="inputs' id="bodypart-1" />
-        <input type="text" class="inputs' id="verb-3" /> <input type="text"
-        class="inputs' id="animal-1" /> <input type="text" class="inputs'
-        id="name-1" /> <input type="text" class="inputs' id="bodypart-2" />
-        <input type="text" class="inputs' id="adjective-2" /> <input type="text"
+       <label for="verb-1-input">Verb</label> <input type="text" class="inputs' id="verb-1-input" /> 
+       <label for="noun-1-input">Noun</label><input
+        type="text" class="inputs' id="noun-1-input" /> <label for="verb-2-input">Verb</label><input type="text"
+        class="inputs' id="verb-2-input" /><label for="adjective-1-input">Adjective</label><input type="text" class="inputs'
+        id="adjective-1" /> <label for="bodypart-1-input">Body Part</label><input type="text" class="inputs' id="bodypart-1" />
+        <label for="verb-3">Verb</label><input type="text" class="inputs' id="verb-3" /> <label for="animal-1-input">Animal</label><input type="text"
+        class="inputs' id="animal-1" /> <label for="name-1">Name</label><input type="text" class="inputs'
+        id="name-1" /> <label for="bodypart-2">Body Part</label><input type="text" class="inputs' id="bodypart-2" />
+        <label for="adjective-2">Adjective</label><input type="text" class="inputs' id="adjective-2" /> <label for="animal-2">Plural Animal</label><input type="text"
         class="inputs' id="animal-2" />
       </section>
+
+    
 
       <button id="inputSubmit">Submit</button>
     </main>
