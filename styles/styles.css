@@ -27,13 +27,13 @@ p {
   display: none;
 }
 
-.words {
+#words {
   display: grid;
   justify-self: center;
   align-self: center;
   grid-gap: 20px;
   width: 20%;
-  color: white;
+  color: darkgray;
   text-align: center;
 }
 
