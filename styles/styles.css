@@ -3,6 +3,7 @@
 body {
   font-family: "Almendra", serif;
   background-image: url(/assets/madmax.jpeg);
+  background-attachment: fixed;
   display: grid;
   background-size: cover;
 }
@@ -33,7 +34,8 @@ p {
   align-self: center;
   grid-gap: 20px;
   width: 20%;
-  color: darkgray;
+  color: rgb(168, 57, 57);
+  font-weight: bolder;
   text-align: center;
 }
 
